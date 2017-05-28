@@ -33,10 +33,10 @@ function stopgesture(){
 
 function autoplay() {
 	scripts = [
-		'/~ashishb/view/js/js-objectdetect/examples/js/compatibility.js',
-		'/~ashishb/view/js/js-objectdetect/js/objectdetect.js',
-		'/~ashishb/view/js/js-objectdetect/js/objectdetect.handfist.js',
-		'/~ashishb/view/js/js-objectdetect/examples/js/jquery.js'];
+		'view/js/js-objectdetect/examples/js/compatibility.js',
+		'view/js/js-objectdetect/js/objectdetect.js',
+		'view/js/js-objectdetect/js/objectdetect.handfist.js',
+		'view/js/js-objectdetect/examples/js/jquery.js'];
 	
 	callbackfn = function() {
 			var canvas = $('#gesturecanvas').get(0);

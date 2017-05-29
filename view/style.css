@@ -25,6 +25,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-skype { background-position: 0px -64px; }
 .icon.icon-email { background-position: 0px -96px; }
 
+.icon-github{ display: inline-block; background: url(images/github_mark_light.png) no-repeat; height: 32px; width: 32px; background-position: 0px 0px;}
+
 .jumbotron {
 	background: no-repeat center right fixed url(images/background.jpg);
 

@@ -217,6 +217,7 @@ $(document).keyup(function(e)
 {
 	if (e.keyCode == 27) 
 	{ 
+  		document.getElementById("autonlab").style.width = "0";
   		document.getElementById("PlotterX").style.width = "0";
 		document.getElementById("InteractiveVR").style.width = "0";
   		document.getElementById("lucaskanade").style.width = "0";

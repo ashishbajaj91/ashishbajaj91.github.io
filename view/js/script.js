@@ -217,25 +217,25 @@ $(document).keyup(function(e)
 {
 	if (e.keyCode == 27) 
 	{ 
-		eleIds = [	"#autonlab",
-					"#PlotterX",
-					"#InteractiveVR",
-					"#lucaskanade",
-					"#Al_Ni_Zr",
-					"#Insense",
-					"#Robocon",
-					"#TruckTomato",
-					"#WasteSegregator",
-					"#GoldCasting",
-					"#PortableWashingMachine",
-					"#vietnam",
-					"#cambodia",
-					"#thailand",
-					"#india"
+		eleIds = [	"autonlab",
+					"PlotterX",
+					"InteractiveVR",
+					"lucaskanade",
+					"Al_Ni_Zr",
+					"Insense",
+					"Robocon",
+					"TruckTomato",
+					"WasteSegregator",
+					"GoldCasting",
+					"PortableWashingMachine",
+					"vietnam",
+					"cambodia",
+					"thailand",
+					"india"
 				];
 		for (i = 0; i < eleIds.length; i++) 
 		{
-			if ($(eleIds[i]).length>0)
+			if ($("#" + eleIds[i]).length>0)
 			{
 				document.getElementById(eleIds[i]).style.width = "0";
 			}

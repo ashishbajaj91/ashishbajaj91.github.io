@@ -217,20 +217,20 @@ $(document).keyup(function(e)
 {
 	if (e.keyCode == 27) 
 	{ 
-		eleIds = [	"#autonlab"
-					"#PlotterX"
-					"#InteractiveVR"
-					"#lucaskanade"
-					"#Al_Ni_Zr"
-					"#Insense"
-					"#Robocon"
-					"#TruckTomato"
-					"#WasteSegregator"
-					"#GoldCasting"
-					"#PortableWashingMachine"
-					"#vietnam"
-					"#cambodia"
-					"#thailand"
+		eleIds = [	"#autonlab",
+					"#PlotterX",
+					"#InteractiveVR",
+					"#lucaskanade",
+					"#Al_Ni_Zr",
+					"#Insense",
+					"#Robocon",
+					"#TruckTomato",
+					"#WasteSegregator",
+					"#GoldCasting",
+					"#PortableWashingMachine",
+					"#vietnam",
+					"#cambodia",
+					"#thailand",
 					"#india"
 				];
 		if ($(eleId).length>0)

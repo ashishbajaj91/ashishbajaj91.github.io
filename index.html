@@ -498,6 +498,92 @@
 		</div>
 		<!-- End AutonLab -->
 		
+		<!-- Begin Mesh Viewer -->
+		<div id="meshviewer" class="overlay">
+			<div class="focus">
+				<a href="javascript:void(0)" class="closebtn" onclick='closeproject("meshviewer")'>&times;</a>	
+			</div>
+
+			<div class="overlay-content">							
+				<div class="col-md-8">
+					<h3>
+						Polygonal Mesh Viewer
+					</h3>
+					<p style="color:white">	
+						Binary STL data format is a standard of majority of CAD/CAE tools. The format contains information about set of disconnected 
+						polygons which is great for visualization purposed, however the information is too less for any other useful purpose. 
+						The file doesn't have color or topological information, nor does it contain any connection information.
+					</p>
+					<p style="color:white">
+						We often need to post these files to extract useful information out of these files for various purposes. We attempted to build a 
+						command line application to read, view and alter binary STL files. We have used OpenGL to render the files. 
+					</p>
+					<p style="color:white">
+						The choice of the datastructure was a crucial decision for us on which we have built this entire application. Currently, you can 
+						read, view and write binary STL files, section the geometry with a given plane, segment it based on dihedral angles between polygons,
+						find shortest connecting path between vertices and could simplify mesh using Quadric Error Metrics Method.
+					</p>
+					<p style="color:white">					
+						Multiple algorithms were implemented at the back of the application including AVL binary tree, 3D Lattice, Astar and HashTable to optimize the 
+						computation complexity.
+					</p>
+					<hr>			
+				</div>
+				<hr>
+				<div class="col-md-4">
+					<div class="proj-info-table">
+						<table>
+							<tbody>
+								<tr>
+									<td style="width:20px;border-right:none;"><i class="fa fa-calendar"></i></td>
+									<td style="width:75px;border-left:none;">Duration</td>
+									<td style="width:275px;">Jan 2017 - May 2017</td>
+								</tr>	
+								<tr>
+									<td style="border-right:none;"><i class="fa fa-users"></i></td>
+									<td style="border-left:none;">Mentor</td>
+									<td>Dr. Soji Yamakawa</td>
+								</tr>
+								<tr>
+									<td style="border-right:none;"><i class="fa fa-location-arrow"></i></td>
+									<td style="border-left:none;">Location</td>
+									<td>CMU, Pittsburgh</td>
+								</tr>	
+								<tr>
+									<td style="border-right:none;"><i class="fa fa-cog"></i></td>
+									<td style="border-left:none;">Role</td>
+									<td>Academic Project</td>
+								</tr>	
+							</tbody>
+						</table>
+						<hr>
+					</div>
+				</div>
+				<!--End of proj info table -->
+				<div class="col-md-4">
+					<h3 style="text-align: center;" >Gallery</h3>
+					<div class="popup-gallery">
+						<a href="view/images/cessna.gif" target="_blank">
+							<img src="view/images/cessna.gif">
+						</a>
+						<a href="view/images/c172r.gif" target="_blank">
+						</a>
+						<a href="view/images/c172r_sliced.gif" target="_blank">
+							<img src="view/images/c172r_sliced.gif">
+						</a>
+						<a href="view/images/c172r_segment.gif" target="_blank">
+							<img src="view/images/c172r_segment.gif">
+						</a>
+						</a>
+						<a href="view/images/c172r_edge_collapse2.gif" target="_blank">
+							<img src="view/images/c172r_edge_collapse2.gif">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Mesh Viewer -->
+		
 		<!-- Begin InteractiveVR -->
 		<div id="InteractiveVR" class="overlay">
 			<div class="focus">
@@ -954,6 +1040,27 @@
 							</figcaption> 
 						</figure>
 					</div>
+					
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<figure class="effect">
+							<img src="view/images/meshviewer.jpg">		
+							<figcaption>
+								<h3>
+									Polygonal Mesh Viewer
+								</h3>
+								<p>
+									C++ app/libraries to read and render in 3D binary STL files using OpenGL. Various algorithms like
+									binary AVL tree, Astar,  3D lattice are also implemented.
+								</p>
+								<p>
+									<strong>Tags:</strong> 
+									<br>
+									OpenGL, Software Development, Data Structure
+								</p>
+							</figcaption> 
+						</figure>
+					</div>
+
 					
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<figure class="effect">

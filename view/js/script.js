@@ -218,6 +218,7 @@ $(document).keyup(function(e)
 	if (e.keyCode == 27) 
 	{ 
 		eleIds = [	"autonlab",
+					"meshviewer",
 					"PlotterX",
 					"InteractiveVR",
 					"lucaskanade",

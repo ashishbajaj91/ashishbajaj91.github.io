@@ -217,20 +217,25 @@ $(document).keyup(function(e)
 {
 	if (e.keyCode == 27) 
 	{ 
-  		document.getElementById("autonlab").style.width = "0";
-  		document.getElementById("PlotterX").style.width = "0";
-		document.getElementById("InteractiveVR").style.width = "0";
-  		document.getElementById("lucaskanade").style.width = "0";
-		document.getElementById("Al_Ni_Zr").style.width = "0";
-       	document.getElementById("Insense").style.width = "0";
-       	document.getElementById("Robocon").style.width = "0";
-       	document.getElementById("TruckTomato").style.width = "0";
-       	document.getElementById("WasteSegregator").style.width = "0";
-       	document.getElementById("GoldCasting").style.width = "0";
-       	document.getElementById("PortableWashingMachine").style.width = "0";
-		document.getElementById("vietnam").style.width = "0";
-		document.getElementById("cambodia").style.width = "0";
-		document.getElementById("thailand").style.width = "0";
-		document.getElementById("india").style.width = "0";
+		eleIds = [	"#autonlab"
+					"#PlotterX"
+					"#InteractiveVR"
+					"#lucaskanade"
+					"#Al_Ni_Zr"
+					"#Insense"
+					"#Robocon"
+					"#TruckTomato"
+					"#WasteSegregator"
+					"#GoldCasting"
+					"#PortableWashingMachine"
+					"#vietnam"
+					"#cambodia"
+					"#thailand"
+					"#india"
+				];
+		if ($(eleId).length>0)
+		{
+			document.getElementById(eleId).style.width = "0";
+		}
 	}
 });

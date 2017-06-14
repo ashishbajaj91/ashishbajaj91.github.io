@@ -233,9 +233,12 @@ $(document).keyup(function(e)
 					"#thailand",
 					"#india"
 				];
-		if ($(eleId).length>0)
+		for (i = 0; i < eleIds.length; i++) 
 		{
-			document.getElementById(eleId).style.width = "0";
+			if ($(eleIds[i]).length>0)
+			{
+				document.getElementById(eleId[i]).style.width = "0";
+			}
 		}
 	}
 });

@@ -237,7 +237,7 @@ $(document).keyup(function(e)
 		{
 			if ($(eleIds[i]).length>0)
 			{
-				document.getElementById(eleId[i]).style.width = "0";
+				document.getElementById(eleIds[i]).style.width = "0";
 			}
 		}
 	}
